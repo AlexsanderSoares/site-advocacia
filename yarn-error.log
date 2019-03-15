@@ -458,14 +458,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
 
 Trace: 
-  Error: https://registry.yarnpkg.com/jsonwebtoken: ESOCKETTIMEDOUT
-      at ClientRequest.<anonymous> (C:\Users\alexs\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:123716:19)
-      at Object.onceWrapper (events.js:313:30)
-      at emitNone (events.js:106:13)
-      at ClientRequest.emit (events.js:208:7)
-      at TLSSocket.emitTimeout (_http_client.js:706:34)
-      at Object.onceWrapper (events.js:313:30)
-      at emitNone (events.js:106:13)
-      at TLSSocket.emit (events.js:208:7)
-      at TLSSocket.Socket._onTimeout (net.js:410:8)
-      at ontimeout (timers.js:498:11)
+  Error: connect EHOSTUNREACH 104.16.25.35:443
+      at Object._errnoException (util.js:992:11)
+      at _exceptionWithHostPort (util.js:1014:20)
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
