@@ -12,9 +12,14 @@
   "author": "Alexsander Soares",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
     "jsonwebtoken": "^8.5.0",
-    "mongoose": "^5.4.19"
+    "mongoose": "^5.4.19",
+    "nodemailer": "^6.2.1",
+    "nodemailer-express-handlebars": "^3.0.0",
+    "path": "^0.12.7"
   }
 }
